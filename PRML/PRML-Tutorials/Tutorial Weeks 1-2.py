@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Aug 13 10:30:48 2020
-
-@author: Aleks
+Pattern Recognition and Machine Learning
+Weeks 1-2 Tutorial
+@author u3141210 (Aleksandar Draskovic)
 """
 
 # Exercise 1: The First Running
@@ -139,7 +139,35 @@ print("=", squareSum(x))
 
 
 # Exercise 9
+while True:
+    x = int(input("Enter a number: "))
+    if x < 0:
+        print(f"{x} is negative")
+    elif x == 0:
+        print("This is 0")
+    elif x > 0:
+        print(f"{x} is positive")
+    
 
+    x = int(input("Enter the first number: "))
+    y = int(input("Enter the second number: "))
+    z = int(input("Enter the third number: "))
+    numList = [x, y, z]
+    numList.sort()
+    print("Largest number is: ", numList[-1])
+
+
+    x = int(input("Enter your score: "))
+    if x >= 85:
+        print("HD")
+    elif x >= 75:
+        print("D")
+    elif x >= 65:
+        print("CR")
+    elif x >= 50:
+        print("P")
+    else:
+        print("F")
 
 
 
