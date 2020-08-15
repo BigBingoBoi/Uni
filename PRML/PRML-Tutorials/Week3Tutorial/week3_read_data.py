@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Pattern Recognition and Machine Learning
-Week 3 Tutorial
+Week 3 Tutorial (read_data)
 @author u3141210 (Aleksandar Draskovic)
 """
 import pandas as pd
