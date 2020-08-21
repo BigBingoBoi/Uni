@@ -6,6 +6,7 @@ Week 3 Tutorial (Linear Regression Example)
 """
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 
 #metrics to evaluate the linear regression
 from sklearn.metrics import mean_squared_error, mean_absolute_error
@@ -20,6 +21,9 @@ from sklearn.linear_model import LinearRegression
 #read iris data
 iris_dataset = pd.read_csv("iris.data", sep=',', names=["sepal_length", "sepal_width", "petal_length",
                                                 "petal_width", "species"])
+
+#define selected_columns
+selected_columns = ["sepal_length", "sepal_width", "petal_length", "petal_width"]
 
 #remove petal width from data
 X = iris_dataset[selected_columns].drop(labels = 'petal_width', axis = 1)
