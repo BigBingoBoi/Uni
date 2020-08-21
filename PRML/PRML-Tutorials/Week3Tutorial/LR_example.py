@@ -31,7 +31,7 @@ X = iris_dataset[selected_columns].drop(labels = 'petal_width', axis = 1)
 #correct petal width values
 y = iris_dataset['petal_width']
 
-#split data into train/test dataseet with ration 3/1
+#split data into train/test dataseet with ratio 3/1
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.25, random_state = 1)
 
 
