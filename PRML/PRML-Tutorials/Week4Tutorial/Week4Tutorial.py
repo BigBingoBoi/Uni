@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Pattern Recognition and Machine Learning
-Week 3 Tutorial (Wine Quality)
+Week 4 Tutorial (Wine Quality)
 @author u3141210 (Aleksandar Draskovic)
 """
 import pandas as pd
