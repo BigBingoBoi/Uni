@@ -1,12 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Programming for Data Science
-Week 5 Tutorial (IO module)
+Week 5 Tutorial
 @author u3141210 (Aleksandar Draskovic)
 """
-import io_data_module
-import tkinter
-
 # Question 1
 myList = list(range(100))
 print("Question 1:", myList, '\n')
@@ -62,10 +59,12 @@ list5.append(tuple(list2))
 print("Question 7:\n", list1, '\n', list2, '\n', list3, '\n', list4, '\n', list5, '\n')
 
 # Question 8
+import io_data_module
 datalist = io_data_module.read_multi_dim_data('iris.data')
 print("Question 8:\n", datalist)
 
 # Question 9
+import tkinter
 top = tkinter.Tk()
 C = tkinter.Canvas(top, bg="white", height=720, width=850)
 

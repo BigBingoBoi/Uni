@@ -6,5 +6,5 @@ save_non_project_files = False
 
 [main]
 version = 0.2.0
-recent_files = ['Week5Tutorial\\Week5Tutorial.py', 'Week5Tutorial\\io_data_module.py']
+recent_files = ['Week6Tutorial\\Week6Tutorial.py', 'Week4Tutorial\\Week4Tutorial.py', 'Week4Tutorial\\io_data_module.py', 'Week6Tutorial\\Week6Tutorial_ellipse.py', 'Week6Tutorial\\io_data_module.py']
 
